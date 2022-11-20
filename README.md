@@ -43,24 +43,10 @@ Deploy to the network
 yarn deploy:metis
 ```
 
-Verify the contract (optional)
-
-```bash
-yarn verify --network goerli [DEPLOYED_CONTRACT_ADDRESS] [SETTLEMENT_TOKEN_IN_STABLECOIN_ADDRESS]
-```
-
 ## Other Projects
 
 - [Frontend](https://github.com/encode-club-solidity-bootcamp-team-11/SplitSum-Frontend)
 - [Backend](https://github.com/encode-club-solidity-bootcamp-team-11/SplitSum)
-
-## Contributors
-
-We love pull requests from everyone.
-
-- [Samnang Chhun](https://github.com/samnang)
-- [Alphonso Miguel T. Balagtas](https://github.com/phonsoswag)
-- [Sereyboth Chamroeun](https://github.com/ch-sereyboth)
 
 ## License
 
