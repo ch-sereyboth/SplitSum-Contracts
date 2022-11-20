@@ -28,7 +28,7 @@ yarn hardhat node
 yarn deploy:local
 ```
 
-### Deploy to live network (Mainnet/Goerli)
+### Deploy to Metis Goerli Testnet
 
 Setup your deployer wallet in environment variables. Look at the example in `.env.example`
 
@@ -40,7 +40,7 @@ cp .env.example .env
 Deploy to the network
 
 ```bash
-yarn deploy:goerli
+yarn deploy:metis
 ```
 
 Verify the contract (optional)

@@ -17,6 +17,11 @@ const config: HardhatUserConfig = {
       url: `https://eth-goerli.alchemyapi.io/v2/${process.env.ALCHEMY_API_KEY}`,
       accounts: [DEPLOYER_PRIVATE_KEY],
     },
+    metis: {
+      url: "https://goerli.gateway.metisdevops.link",
+      accounts:
+      process.env.PRIVATE_KEY !== undefined ? [process.env.PRIVATE_KEY] : [],
+      },
   },
   etherscan: {
     apiKey: process.env.ETHERSCAN_API_KEY,
